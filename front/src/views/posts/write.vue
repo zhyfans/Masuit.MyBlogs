@@ -46,7 +46,7 @@
       </div>
     </q-card-section>
   </q-card>
-  <q-card flat bordered class="q-mb-md">
+  <q-card flat bordered class="q-mb-md" v-if="route.query.id == null">
     <q-card-section>
       <div class="text-h6">作者信息</div>
       <div class="row q-gutter-md">
